@@ -300,7 +300,7 @@ Clarity AI Solutions
         {/* Header */}
         <div className="proposal-header">
           <div className="header-logo-area">
-            <div className="logo-mark">C</div>
+            <img src="/logo.png" alt="Clarity AI Solutions" style={{height:'38px',width:'auto'}} />
             <div>
               <div className="logo-text">Clarity AI Solutions</div>
               <div className="logo-sub">Powered by Sophia™</div>

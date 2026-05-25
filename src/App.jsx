@@ -180,7 +180,7 @@ function SavedProposals({ onClose, onLoad }) {
           overflow: hidden;
         }
         .modal-header {
-          background: #1A2332; color: #fff;
+          background: #0A1628; color: #fff;
           padding: 18px 24px;
           display: flex; justify-content: space-between; align-items: center;
           font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700;
@@ -200,7 +200,7 @@ function SavedProposals({ onClose, onLoad }) {
         .saved-meta { font-size: 12px; color: #999; margin-top: 3px; }
         .saved-actions { display: flex; gap: 8px; align-items: center; }
         .btn-load {
-          background: #1A2332; color: #d4af6a;
+          background: #0A1628; color: #d4af6a;
           border: none; border-radius: 6px;
           padding: 7px 16px; font-size: 13px; font-weight: 600; cursor: pointer;
           font-family: 'DM Sans', sans-serif;
@@ -434,27 +434,27 @@ Clarity AI Solutions
         .btn-back, .btn-tool, .btn-print { padding: 9px 16px; border-radius: 6px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; border: none; transition: all 0.2s; }
         .btn-back { background: #fff; color: #1a1a1a; border: 1.5px solid #ccc; }
         .btn-back:hover { background: #eee; }
-        .btn-tool { background: #fff; color: #1A2332; border: 1.5px solid #1A2332; }
+        .btn-tool { background: #fff; color: #0A1628; border: 1.5px solid #0A1628; }
         .btn-tool:hover { background: #f0f5f2; }
-        .btn-print { background: #1A2332; color: #d4af6a; letter-spacing: 0.03em; }
-        .btn-print:hover { background: #0f1a27; }
+        .btn-print { background: #0A1628; color: #d4af6a; letter-spacing: 0.03em; }
+        .btn-print:hover { background: #061020; }
         .proposal { max-width: 860px; margin: 0 auto; background: #fff; box-shadow: 0 8px 48px rgba(0,0,0,0.12); }
-        .proposal-header { background: #1A2332; padding: 28px 40px; display: flex; justify-content: space-between; align-items: center; }
+        .proposal-header { background: #0A1628; padding: 28px 40px; display: flex; justify-content: space-between; align-items: center; }
         .header-logo-area { display: flex; align-items: center; gap: 14px; }
-        .logo-mark { width: 44px; height: 44px; background: #d4af6a; color: #1A2332; border-radius: 50%; font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+        .logo-mark { width: 44px; height: 44px; background: #d4af6a; color: #0A1628; border-radius: 50%; font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
         .logo-text { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: #fff; }
         .logo-sub { font-size: 11px; color: #d4af6a; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 2px; }
         .header-meta { text-align: right; }
         .proposal-label { font-size: 11px; letter-spacing: 0.15em; color: #d4af6a; font-weight: 600; text-transform: uppercase; }
         .proposal-date { color: rgba(255,255,255,0.7); font-size: 13px; margin-top: 4px; }
-        .cover-section { background: linear-gradient(135deg, #1A2332 0%, #0f1a27 100%); padding: 60px 40px 50px; position: relative; overflow: hidden; }
+        .cover-section { background: linear-gradient(135deg, #0A1628 0%, #061020 100%); padding: 60px 40px 50px; position: relative; overflow: hidden; }
         .cover-section::before { content: ''; position: absolute; top: -60px; right: -60px; width: 280px; height: 280px; border-radius: 50%; border: 40px solid rgba(212,175,106,0.08); }
         .cover-eyebrow { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #d4af6a; font-weight: 600; margin-bottom: 12px; }
         .cover-business { font-family: 'Playfair Display', serif; font-size: 48px; font-weight: 900; color: #fff; line-height: 1.1; margin-bottom: 16px; }
         .cover-tagline { font-size: 17px; color: rgba(255,255,255,0.75); font-weight: 300; max-width: 480px; line-height: 1.5; }
         .cover-recipient { margin-top: 24px; display: inline-block; background: rgba(212,175,106,0.15); border: 1px solid rgba(212,175,106,0.3); color: #d4af6a; padding: 8px 18px; border-radius: 30px; font-size: 13px; font-weight: 500; }
         .section-divider { background: #f7f4ef; padding: 12px 40px; border-top: 1px solid #e8e2d8; border-bottom: 1px solid #e8e2d8; }
-        .section-divider span { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 700; color: #1A2332; }
+        .section-divider span { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 700; color: #0A1628; }
         .section { padding: 44px 40px; border-bottom: 1px solid #f0ece5; }
         .section h2 { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: #1a1a1a; margin-bottom: 14px; }
         .section-intro { font-size: 15px; color: #555; line-height: 1.65; margin-bottom: 28px; }
@@ -462,7 +462,7 @@ Clarity AI Solutions
         .about-text p { font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 14px; }
         .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
         .stat-card { background: #f7f4ef; border: 1px solid #e8e2d8; border-radius: 10px; padding: 18px 14px; text-align: center; }
-        .stat-num { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 900; color: #1A2332; }
+        .stat-num { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 900; color: #0A1628; }
         .stat-label { font-size: 11px; color: #888; margin-top: 4px; letter-spacing: 0.05em; text-transform: uppercase; }
         .pain-list { display: flex; flex-direction: column; gap: 14px; }
         .pain-item { display: flex; gap: 16px; align-items: flex-start; background: #fff8f0; border-left: 3px solid #d4af6a; padding: 14px 18px; border-radius: 0 8px 8px 0; }
@@ -470,35 +470,35 @@ Clarity AI Solutions
         .pain-item p { font-size: 14px; color: #444; line-height: 1.6; padding-top: 3px; }
         .roi-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-bottom: 14px; }
         .roi-card { background: #f7f4ef; border: 1px solid #e8e2d8; border-radius: 10px; padding: 20px 16px; text-align: center; }
-        .roi-card.highlight-card { background: #1A2332; border-color: #1A2332; }
+        .roi-card.highlight-card { background: #0A1628; border-color: #0A1628; }
         .roi-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; line-height: 1.4; }
         .highlight-card .roi-label { color: rgba(212,175,106,0.8); }
-        .roi-value { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 900; color: #1A2332; }
+        .roi-value { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 900; color: #0A1628; }
         .highlight-card .roi-value { color: #d4af6a; }
         .roi-footnote { font-size: 11px; color: #aaa; font-style: italic; }
         .packages-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
         .package-card { border: 1.5px solid #e8e2d8; border-radius: 12px; padding: 28px 24px; position: relative; }
-        .package-highlighted { border-color: #1A2332; background: #f7f9f8; box-shadow: 0 4px 20px rgba(26,58,42,0.1); }
-        .popular-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #1A2332; color: #d4af6a; font-size: 9px; font-weight: 700; letter-spacing: 0.15em; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
-        .pkg-name { font-size: 11px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #1A2332; margin-bottom: 10px; }
+        .package-highlighted { border-color: #0A1628; background: #f7f9f8; box-shadow: 0 4px 20px rgba(26,58,42,0.1); }
+        .popular-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #0A1628; color: #d4af6a; font-size: 9px; font-weight: 700; letter-spacing: 0.15em; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
+        .pkg-name { font-size: 11px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #0A1628; margin-bottom: 10px; }
         .pkg-setup { font-size: 12px; color: #888; margin-bottom: 6px; }
         .setup-label { font-weight: 600; color: #555; margin-right: 4px; }
-        .setup-val { color: #1A2332; font-weight: 600; }
+        .setup-val { color: #0A1628; font-weight: 600; }
         .setup-note { font-weight: 400; color: #aaa; font-size: 11px; }
         .pkg-price { font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 900; color: #1a1a1a; line-height: 1; margin-bottom: 8px; }
         .pkg-dollar { font-size: 20px; vertical-align: super; }
         .pkg-period { font-size: 14px; color: #999; font-family: 'DM Sans', sans-serif; font-weight: 400; }
-        .pkg-free-badge { display: inline-block; background: #e8f5ee; color: #1A2332; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; }
+        .pkg-free-badge { display: inline-block; background: #e8f5ee; color: #0A1628; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; }
         .pkg-desc { font-size: 12px; color: #888; line-height: 1.5; margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #eee; }
         .pkg-features { list-style: none; display: flex; flex-direction: column; gap: 9px; }
         .pkg-features li { font-size: 13px; color: #444; display: flex; align-items: flex-start; gap: 8px; line-height: 1.4; }
-        .check { color: #1A2332; font-weight: 700; flex-shrink: 0; }
-        .proposal-footer { background: #1A2332; padding: 40px 40px 36px; display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
+        .check { color: #0A1628; font-weight: 700; flex-shrink: 0; }
+        .proposal-footer { background: #0A1628; padding: 40px 40px 36px; display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
         .footer-cta-text { font-size: 17px; color: #fff; font-weight: 500; margin-bottom: 14px; }
         .footer-links { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
         .footer-link { color: rgba(255,255,255,0.75); font-size: 13px; text-decoration: none; }
         .footer-link:hover { color: #d4af6a; }
-        .footer-schedule-btn { display: inline-block; background: #d4af6a; color: #1A2332; font-size: 13px; font-weight: 700; padding: 10px 22px; border-radius: 6px; text-decoration: none; letter-spacing: 0.02em; }
+        .footer-schedule-btn { display: inline-block; background: #d4af6a; color: #0A1628; font-size: 13px; font-weight: 700; padding: 10px 22px; border-radius: 6px; text-decoration: none; letter-spacing: 0.02em; }
         .footer-schedule-btn:hover { background: #c9a050; }
         .footer-logo { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: #fff; text-align: right; }
         .footer-tagline { font-size: 11px; color: #d4af6a; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 4px; text-align: right; }
@@ -581,9 +581,9 @@ function ProposalForm({ onGenerate, savedEntry }) {
         * { box-sizing: border-box; margin: 0; padding: 0; }
         .form-wrapper { font-family: 'DM Sans', sans-serif; min-height: 100vh; background: #f0ede8; display: flex; align-items: center; justify-content: center; padding: 40px 16px; }
         .form-card { background: #fff; border-radius: 16px; width: 100%; max-width: 500px; box-shadow: 0 8px 40px rgba(0,0,0,0.1); overflow: hidden; }
-        .form-header { background: #1A2332; padding: 24px 32px; display: flex; justify-content: space-between; align-items: center; }
+        .form-header { background: #0A1628; padding: 24px 32px; display: flex; justify-content: space-between; align-items: center; }
         .form-logo { display: flex; align-items: center; gap: 14px; }
-        .form-logo-mark { width: 42px; height: 42px; background: #d4af6a; color: #1A2332; border-radius: 50%; font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+        .form-logo-mark { width: 42px; height: 42px; background: #d4af6a; color: #0A1628; border-radius: 50%; font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
         .form-logo-text { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700; color: #fff; }
         .form-logo-sub { font-size: 11px; color: #d4af6a; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 3px; }
         .saved-btn { background: rgba(212,175,106,0.15); border: 1px solid rgba(212,175,106,0.4); color: #d4af6a; padding: 8px 14px; border-radius: 6px; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; }
@@ -595,11 +595,11 @@ function ProposalForm({ onGenerate, savedEntry }) {
         .req { color: #c0392b; }
         .opt { font-weight: 400; color: #aaa; font-size: 11px; }
         .field input, .field select { width: 100%; padding: 11px 14px; border: 1.5px solid #ddd; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 14px; color: #1a1a1a; outline: none; transition: border-color 0.2s; background: #fff; }
-        .field input:focus, .field select:focus { border-color: #1A2332; }
+        .field input:focus, .field select:focus { border-color: #0A1628; }
         .field input::placeholder { color: #bbb; }
         .generate-btn { width: 100%; padding: 14px; border: none; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 700; cursor: pointer; margin-top: 8px; letter-spacing: 0.02em; transition: all 0.2s; }
-        .generate-btn.ready { background: #1A2332; color: #d4af6a; }
-        .generate-btn.ready:hover { background: #0f1a27; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(26,58,42,0.25); }
+        .generate-btn.ready { background: #0A1628; color: #d4af6a; }
+        .generate-btn.ready:hover { background: #061020; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(26,58,42,0.25); }
         .generate-btn.disabled { background: #eee; color: #bbb; cursor: not-allowed; }
       `}</style>
     </div>

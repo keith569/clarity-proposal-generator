@@ -536,7 +536,7 @@ function ProposalForm({ onGenerate, savedEntry }) {
       <div className="form-card">
         <div className="form-header">
           <div className="form-logo">
-            <div className="form-logo-mark">C</div>
+            <img src="/logo.png" alt="Clarity AI Solutions" style={{height:'38px',width:'auto'}} />
             <div>
               <div className="form-logo-text">Clarity AI Solutions</div>
               <div className="form-logo-sub">Proposal Generator</div>
